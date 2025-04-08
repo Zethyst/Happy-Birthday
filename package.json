@@ -1,0 +1,27 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "description": "Birthday greetings.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "http-server Birthday -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zethyst/birthday.git"
+  },
+  "keywords": [
+    "birthday",
+    "greeting",
+    "static-site"
+  ],
+  "author": "Akshat Jaiswal",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
